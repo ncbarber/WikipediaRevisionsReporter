@@ -10,8 +10,8 @@ instead of the "Fake one" that was there.
 
 ## Challenge #2 Complete
 
-Within this challenge even though the way that the time was displayed, 
-it could be useful infomration in some way. I did this by creating RevisionImplementation.
+Within this challenge even though the way that the time was displayed is okay, 
+it could be useful infomration in some manner. I did this by creating RevisionImplementation.
 This takes the the RevisionImplementation interface which uses a format function.
 From there RevisionFormatter was made to implement RevisionImplementation. RevisionModule was then made
 to bind the two RevisionImplementation and RevisionFormatter together. The last step that I took was adding the RevisionModule 
@@ -19,7 +19,7 @@ to the App file. So now when the actual output is set, its in the format of "At 
 
 ## Challenge #3 Complete
 
-For this challange, in order to remove the loop I used steam() which was something I haven't done before!
+For this challange, in order to remove the loop I used steam() which was something I haven't done before! This was definetly a new challenge for me, but it was something that with some reading, I was able to find a way for it to make sense. 
 From what I was able to find in helping me through this, I would have to map the steam. Since we have the RevisionFormatter, 
 I was able to use this to format the revisions at a new line. This map was used to collect and join within the Collectors class.
 I put this all into an outputArea as a text and it was good to go! 
