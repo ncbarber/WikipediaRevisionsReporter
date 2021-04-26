@@ -19,9 +19,10 @@ to the App file. So now when the actual output is set, its in the format of "At 
 
 ## Challenge #3 Complete
 
-(Explain your solution to Challenge #3. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+For this challange, in order to remove the loop I used steam() which was something I haven't done before!
+From what I was able to find in helping me through this, I would have to map the steam. Since we have the RevisionFormatter, 
+I was able to use this to format the revisions at a new line. This map was used to collect and join within the Collectors class.
+I put this all into an outputArea as a text and it was good to go! 
 
 ## Reflection Question #1: Functional vs OO
 
