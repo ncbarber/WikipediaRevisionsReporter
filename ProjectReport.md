@@ -26,15 +26,15 @@ I put this all into an outputArea as a text and it was good to go!
 
 ## Reflection Question #1: Functional vs OO
 
-(Write one or more paragraphs comparing and contrasting the iterative and functional  
-approaches to string concatenation you explored in challenge #3. Which do you
-prefer, and why?)
+Since coming at this string concatentation in a functional approach was something that was somewhat new to me
+there were many things that I found interesting and sort of was able to build my preferences
+For the most part I have always built around a more iterative manner, with something
+like a for loop. However I did enjoy the change away from this. Using these functions and putting them all together
+really feel a lot more high level and more difficult to grasp. I would probably see myself normally revert to n iterative appraoch 
+although in a lot of cases there are more of a reason to use a functional approach. 
 
 ## Reflection Question #2: Polymorphism and Dependency Inversion
 
-(Explain how polymorphism engendered dependency inversion in this little
-application. Be clear and precise here, as this is, in part, an assessment of
-your correct use of technical terminology.
-Consider, for example, where exactly is polymorphism used?
-Where exactly is a dependency inverted?)
-
+Polymorphism was something that I found was used within the RevisionFormatter and RevisionImplementation classes in my case.
+In turn the dependecy inversion occurs within the WkipediaAnalyzer. The RevisionImplementation is able to have all sorts of different uses and take on different forms as well. 
+The QueryEngine is another thing that we can look at as an example of polymorphism. This is because where there are any sorts of instances of these classes that in turn implement interfaces, we can see that polymorphism in that. Dependency inversions occur when we follow Guide. We can invert these dependencies by the use of these abstractions and through interfaces as well. 
