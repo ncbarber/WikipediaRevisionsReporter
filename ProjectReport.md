@@ -10,9 +10,12 @@ instead of the "Fake one" that was there.
 
 ## Challenge #2 Complete
 
-(Explain your solution to Challenge #2. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+Within this challenge even though the way that the time was displayed, 
+it could be useful infomration in some way. I did this by creating RevisionImplementation.
+This takes the the RevisionImplementation interface which uses a format function.
+From there RevisionFormatter was made to implement RevisionImplementation. RevisionModule was then made
+to bind the two RevisionImplementation and RevisionFormatter together. The last step that I took was adding the RevisionModule 
+to the App file. So now when the actual output is set, its in the format of "At *WhateverTime*, *TheUser* made a change on the date *Date*" 
 
 ## Challenge #3 Complete
 
